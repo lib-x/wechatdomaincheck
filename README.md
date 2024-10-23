@@ -70,11 +70,6 @@ type CheckResponse struct {
 
 For detailed documentation, please refer to the [GoDoc](https://pkg.go.dev/github.com/lib-x/wechatdomaincheck) page.
 
-## Related Projects
-
-- [wechat-url-check](https://github.com/TransparentLC/wechat-url-check): A Python implementation of WeChat URL checking
-- [wx-url-check](https://github.com/Rongronggg9/wx-url-check): Another Python implementation with additional features
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
