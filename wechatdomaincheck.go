@@ -15,6 +15,8 @@ type CheckResponse struct {
 	ReCode int    `json:"reCode"`
 }
 
+// Check checks if a given URL is blocked by WeChat.
+
 func Check(urlPath string) (*CheckResponse, error) {
 	checkURL := wechatEndpoint + url.QueryEscape(urlPath)
 	resp, err := http.Get(checkURL)
